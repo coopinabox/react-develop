@@ -35,7 +35,7 @@ gulp.task('js', function () {
 gulp.task('css', function () {
   return gulp.src('../../index.less')
     .pipe(less())
-    .pipe(gulp.dest('static'))
+    .pipe(gulp.dest('./static'))
     .pipe(refresh(lr));
 });
 

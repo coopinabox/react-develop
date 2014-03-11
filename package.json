@@ -1,0 +1,31 @@
+{
+  "name": "react-develop",
+  "version": "0.0.0",
+  "description": "easily develop React components",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coopinabox/react-develop.git"
+  },
+  "author": "",
+  "license": "AGPLv3",
+  "bugs": {
+    "url": "https://github.com/coopinabox/react-develop/issues"
+  },
+  "homepage": "https://github.com/coopinabox/react-develop",
+  "dependencies": {
+    "react": "^0.9.0",
+    "connect-livereload": "^0.3.2",
+    "vinyl-source-stream": "^0.1.1",
+    "gulp-livereload": "^1.2.0",
+    "tiny-lr": "0.0.5",
+    "ecstatic": "^0.4.13",
+    "gulp": "^3.5.5",
+    "connect": "^2.14.1",
+    "gulp-less": "^1.2.2",
+    "watchify": "^0.6.1"
+  }
+}

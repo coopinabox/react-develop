@@ -1,3 +1,7 @@
 #!/bin/sh
 
-gulp
+here="node_modules/react-develop"
+gulp="$here/node_modules/.bin/gulp"
+gulpfile="$here/gulpfile.js"
+
+$gulp --gulpfile $gulpfile

@@ -35,4 +35,4 @@ gulp.task('lr', function (cb) {
   lr.listen(LIVERELOAD_PORT, cb);
 });
 
-gulp.task('default', ['lr', 'js', 'server', 'watch']);
+gulp.task('default', ['lr', 'js', 'server']);

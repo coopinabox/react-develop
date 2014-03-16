@@ -1,6 +1,6 @@
 {
   "name": "react-develop",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "easily develop React components",
   "main": "gulpfile.js",
   "bin": "bin/react-develop",

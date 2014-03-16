@@ -1,7 +1,6 @@
 var gulp = require('gulp');
 var source = require('vinyl-source-stream');
 var watchify = require('watchify');
-var less = require('gulp-less');
 var refresh = require('gulp-livereload');
 var lr = require('tiny-lr')();
 
@@ -32,19 +31,8 @@ gulp.task('js', function () {
   return rebundle();
 });
 
-gulp.task('css', function () {
-  return gulp.src('../../index.less')
-    .pipe(less())
-    .pipe(gulp.dest('./static'))
-    .pipe(refresh(lr));
-});
-
 gulp.task('lr', function (cb) {
   lr.listen(LIVERELOAD_PORT, cb);
 });
- 
-gulp.task('watch', function () {
-  gulp.watch('../../**/*.less', ['css']);
-});
 
-gulp.task('default', ['lr', 'js', 'css', 'server', 'watch']);
+gulp.task('default', ['lr', 'js', 'server', 'watch']);

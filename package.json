@@ -27,7 +27,6 @@
     "ecstatic": "^0.4.13",
     "gulp": "^3.5.5",
     "connect": "^2.14.1",
-    "gulp-less": "^1.2.2",
     "watchify": "^0.6.1"
   },
   "devDependencies": {
